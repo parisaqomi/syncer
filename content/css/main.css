@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'iransans';
+  src: url("/content/fonts/IransansFaNum/ttf/IRANSansWebFaNum.ttf"), url("/content/fonts/IransansFaNum/eot/IRANSansWebFaNum.eot"), url("/content/fonts/IransansFaNum/woff/IRANSansWebFaNum.woff"), url("/content/fonts/woff2/IransansFaNum/IRANSansWebFaNum.woff2"); }
+body {
+  font-family: 'iransans' !important;
+  box-sizing: border-box;
+  margin: 0;
+  direction: rtl;
+  font-size: 14px;
+  line-height: 24px; }
+
+p {
+  margin: 0; }
+
+.dri_rtl {
+  direction: rtl; }
+
+.dri_ltr {
+  direction: ltr; }
+
+.w-50 {
+  width: 50%; }
+
+.white-bg {
+  background: #fff; }
+
+.white-color {
+  color: #fff !important; }
+
+.red-color {
+  color: #EB5757 !important; }
+
+/*# sourceMappingURL=main.css.map */
