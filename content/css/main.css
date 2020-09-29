@@ -7,7 +7,9 @@ body {
   margin: 0;
   direction: rtl;
   font-size: 14px;
-  line-height: 24px; }
+  line-height: 24px;
+  background-color: #E6E6E6;
+  text-align: right; }
 
 p {
   margin: 0; }
@@ -29,5 +31,41 @@ p {
 
 .red-color {
   color: #EB5757 !important; }
+
+.navigation {
+  background-color: #fff;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.15);
+  height: 50px; }
+
+.bord-title {
+  font-size: 18px; }
+
+.user-status-bar {
+  border-radius: 10px;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.15); }
+
+.side-bar {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.15);
+  padding: 1rem; }
+
+.custom-btn {
+  border-radius: 5px;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.15); }
+
+.v-line {
+  width: 100%;
+  height: 1px;
+  background-color: #D1D1D1; }
+
+.cta-bg {
+  background-color: #FF8D11; }
+
+.orange-bg {
+  background-color: #FFC002; }
+
+.gray-bg {
+  background-color: #A0B6C2; }
 
 /*# sourceMappingURL=main.css.map */

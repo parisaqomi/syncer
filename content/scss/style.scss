@@ -1,0 +1,41 @@
+ .navigation {
+     background-color: #fff;
+     box-shadow: $shadow-big;
+     height: 50px;
+ }
+
+ .bord-title {
+     font-size: 18px
+ }
+
+ .user-status-bar {
+     border-radius: $radius-big;
+     box-shadow: $shadow-big;
+
+ }
+ .side-bar{
+     background-color: #fff;
+    border-radius: $radius-big;
+    box-shadow: $shadow-big;
+    padding:1rem
+}
+ .custom-btn {
+     border-radius: $radius-small;
+     box-shadow: $shadow-big;
+
+ } 
+ .v-line{
+     width: 100%;
+     height: 1px;
+     background-color: #D1D1D1
+ }
+ ///colors
+ .cta-bg{
+    background-color:$cta-color
+ }
+ .orange-bg {
+     background-color: #FFC002
+ }
+ .gray-bg{
+    background-color: #A0B6C2
+ }

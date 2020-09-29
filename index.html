@@ -1,26 +1,105 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>sync my boss</title>
-<link rel="stylesheet" href="content/css/main.css">
-<link rel="stylesheet" href="content/css/bootstrap.css">
-<link rel="stylesheet" href="content/css/all.min.css">
+    <title>sync my boss</title>
+    <link rel="stylesheet" href="content/css/bootstrap.css">
+    <link rel="stylesheet" href="content/css/all.min.css">
+    <link rel="stylesheet" href="content/css/main.css">
 </head>
+
 <body>
-<section>
-    <nav class="d-flex justify-content-around">
-        <div>بورد اطلاع رسانی</div>
-        <div>
-            <span>۲۱</span>
-            همکار آنلاین
+    <section class="navigation">
+        <nav class="container d-flex h-100">
+            <div class="w-100 d-flex justify-content-between align-items-center">
+                <div class="bord-title font-weight-bold">بورد اطلاع رسانی</div>
+                <div>
+                    <span>۲۱</span>
+                    همکار آنلاین
+                </div>
+            </div>
+        </nav>
+
+    </section>
+    <section class="my-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 user-status-bar py-1 d-flex justify-content-between align-items-center orange-bg">
+                    <div>پریسا قمی</div>
+                    <div class="text-center">
+                        <div class="font-weight-bold">ترک میز برای ناهار</div>
+                        <div>کارشروع شده: تماس با مشتری ادوردز - مصطفوی</div>
+                    </div>
+                    <div> <span>۱۳۹۹/۰۹/۰۹</span> - <span> ۱۳:۱۳</span></div>
+                </div>
+            </div>
         </div>
-    </nav>
-</section>
-<section></section>
-<section></section>
-<script src="content/js/jquery.min.js"></script>
-<script src="content/js/popper.min.js"></script>
-<script src="content/js/bootstrap.min.js"></script>
-<script src="content/js/main.js"></script>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-3 side-bar">
+                    <div class="text-left">
+                        <button type="button" class="btn custom-btn gray-bg">اعلام خروج</button>
+                    </div>
+                    <div class="v-line my-2"></div>
+                    <div>
+                        <div class="dropdown w-100">
+                            <button class="btn btn-secondary dropdown-toggle w-100 text-right" type="button" id="userState"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                وضعیت
+                            </button>
+                            <div class="dropdown-menu w-100 text-right" aria-labelledby="userState">
+                                <span class="dropdown-item" href="#">Action</span>
+                                <span class="dropdown-item" href="#">Another action</span>
+                                <span class="dropdown-item" href="#">Something else here</span>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="input-group my-2">
+                                <input type="text" class="form-control" placeholder="زمان بازگشت">
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn custom-btn cta-bg">ارسال </button>
+                        </div>
+                    </div>
+                    <div class="v-line my-2"></div>
+                    <div> 
+                        <div class="dropdown w-100">
+                            <button class="btn btn-secondary dropdown-toggle w-100 text-right" type="button" id="userState"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              نام فعالیت
+                            </button>
+                            <div class="dropdown-menu w-100 text-right" aria-labelledby="userState">
+                                <span class="dropdown-item" href="#">Action</span>
+                                <span class="dropdown-item" href="#">Another action</span>
+                                <span class="dropdown-item" href="#">Something else here</span>
+                            </div>
+                        </div> 
+                        <div>
+                            <input type="text" class="form-control my-2" placeholder="عنوان کار ">
+                        </div>
+                        <div>
+                            <input type="text" class="form-control my-2" placeholder="زمان تخمینی فعالیت">
+                        </div>
+                        <div>
+                            <textarea class="form-control my-2" aria-label="With textarea" placeholder="توضیحات"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn custom-btn cta-bg">ارسال</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-9"> </div>
+            </div>
+        </div>
+    </section>
+    <script src="content/js/jquery.min.js"></script>
+    <script src="content/js/popper.min.js"></script>
+    <script src="content/js/bootstrap.min.js"></script>
+    <script src="content/js/main.js"></script>
 </body>
+
 </html>
