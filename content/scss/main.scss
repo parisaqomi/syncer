@@ -1,0 +1,38 @@
+@import "_font";
+@import "_variable";
+@import "_mixin";
+@import "_standards";
+
+
+@import "footer";
+@import "download-app";
+@import "index";
+@import "header";
+@import "common";
+@import "components";
+@import "services";
+@import "insurance";
+@import "hsr";
+@import "signin";
+@import "ticket-mainpage";
+@import "checkout";
+@import "tour";
+@import "others";
+@import "newlayout";
+@import "medias";
+@import "blog";
+@import "city-to-city";
+@import "balloon";
+
+@import "datePicker/app";
+@import "datePicker/style";
+//@import "datePicker/_transitions";
+@import "datePicker/_variables";
+
+@import "OverWriteStyle";
+@import "vue-range-slider";
+@import "loading";
+
+button, [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: none !important;
+}

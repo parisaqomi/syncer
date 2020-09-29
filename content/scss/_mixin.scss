@@ -1,0 +1,83 @@
+@mixin button($background-color) {
+    background: $background-color;
+    border: 1px solid $background-color;
+    border-radius: $radius-small;
+    padding: 8px 16px;
+    color: $primary-color-blue !important;
+    text-align: center;
+    font-size: 16px;
+    // box-shadow: 0 1px 9px $background-color;
+    cursor: pointer;
+
+    @media screen and (max-width: 1024px) and (min-width:768px) {
+        font-size: 13px
+    }
+
+    @media screen and (max-width: 767px) {
+        font-size: 11px;
+        padding: 4px 10px;
+    }
+}
+
+@mixin border-btn($border-color, $bg-color) {
+    background: $bg-color;
+    border: 1px solid $border-color;
+    border-radius: $radius-small;
+    padding: 8px 16px;
+    color: $border-color !important;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+
+    @media screen and (max-width: 1024px) and (min-width:768px) {
+        font-size: 13px
+    }
+
+    @media screen and (max-width:767px) {
+        border-radius: 10px;
+        padding: 4px 12px;
+    }
+}
+
+@mixin flx ($direction, $content) {
+    display: flex;
+
+    @if ($content !="") {
+        justify-content: $content;
+    }
+
+    @if ($direction !="") {
+        flex-direction: $direction;
+    }
+}
+
+@mixin active-btn ($background-color) {
+    background: $background-color;
+    box-shadow: 0px 2px 12px $background-color;
+    border-radius: $radius-big;
+    padding: 5px 20px !important;
+    color: $natural-color !important;
+
+    a {
+        color: $natural-color !important
+    }
+}
+
+@mixin air-lines($color, $bg-color) {
+    width: 140px;
+    height: 60px;
+    border-radius: 12px;
+    padding: 10px;
+    margin-left: 1rem;
+    background: $bg-color;
+    color: $color;
+    font-size: 11px;
+}
+
+@mixin sticky-bar($height, $top) {
+    position: -webkit-sticky;
+    position: sticky;
+    height: $height;
+    top: $top;
+    overflow-y: auto;
+}
