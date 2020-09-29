@@ -8,7 +8,9 @@ body {
     background-color: #E6E6E6;
     text-align: right;
 }
-
+:focus{
+    outline: 0px solid transparent !important;
+}
 p {
     margin: 0
 }

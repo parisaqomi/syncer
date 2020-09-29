@@ -29,6 +29,13 @@
      height: 1px;
      background-color: #D1D1D1
  }
+ 
+ .main-box{
+    background-color: #fff;
+   border-radius: $radius-big;
+   box-shadow: $shadow-big;
+   padding:1rem
+}
  ///colors
  .cta-bg{
     background-color:$cta-color
